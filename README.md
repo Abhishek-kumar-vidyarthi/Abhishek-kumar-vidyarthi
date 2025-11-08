@@ -1,61 +1,113 @@
-# 👋 Hi, I'm **Abhishek Kumar **
+<!-- PROFILE HEADER -->
+<h1 align="center">👋 Hi, I'm <span style="color:#0ef;">Abhishek Kumar </span></h1>
 
-🎯 **Aspiring Full-Stack Developer | Java | Spring Boot | Django | React | REST APIs | Problem Solver**
+<h3 align="center">
+Aspiring Full-Stack Developer | Java | Spring Boot | Django | React | DSA | REST APIs
+</h3>
 
----
+<br/>
 
-## 🧠 About Me  
-I’m a passionate **B.Tech student** with a strong foundation in **Java, Python, and Web Development**.  
-I love solving complex problems on **LeetCode**, building real-world web applications using **Spring Boot** and **Django**,  
-and continuously improving my coding and system design skills.
+<!-- ABOUT ME -->
+<p align="center">
+I am a passionate B.Tech student specializing in backend development and scalable system design.<br/>
+I enjoy solving real-world problems using Java, Python, and modern web technologies.<br/>
+Currently exploring Microservices, Cloud Deployment, and advanced backend architectures.
+</p>
 
-💡 I enjoy learning about backend architecture, clean API design, and scalable software systems.  
-🚀 Currently exploring **Microservices** and **Cloud Deployment**.  
-🎯 Goal: To become a **proficient Software Developer** capable of building high-impact products.
+<br/>
 
----
-
-## 🧩 Tech Stack  
-
-**Languages:**  
-💻 Java · Python · JavaScript · SQL  
-
-**Frameworks & Libraries:**  
-🌐 Spring Boot · Django · React · REST Framework  
-
-**Databases & Tools:**  
-🗄️ MySQL · PostgreSQL · MongoDB  
-
-**Other Skills:**  
-⚙️ Git · GitHub · HTML · CSS · API Integration  
-
----
-
-## 🚀 LeetCode Stats  
-![LeetCode Stats](https://leetcard.jacoblin.cool/Abhishek_vidyarthi231?theme=dark&ext=heatmap)
+<!-- STYLISH BUTTONS -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/abhishek-kumar-vidyarthi/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:abhishekv.contact@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D44638?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://leetcode.com/Abhishek_vidyarthi231/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-## 📊 GitHub Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Abhishek-kumar-vidyarthi&show_icons=true&theme=dark)
+# 🧩 **Tech Stack**
+
+### **Languages**
+<p>
+<img src="https://img.shields.io/badge/Java-E34F26?style=for-the-badge&logo=coffeescript&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/SQL-316192?style=for-the-badge&logo=azure-sqldatabase&logoColor=white"/>
+</p>
+
+### **Frameworks & Libraries**
+<p>
+<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Django-0C4B33?style=for-the-badge&logo=django&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/REST%20API-FF6F00?style=for-the-badge&logo=api&logoColor=white"/>
+</p>
+
+### **Databases**
+<p>
+<img src="https://img.shields.io/badge/MySQL-1E4C68?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-31648C?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+</p>
+
+### **Tools**
+<p>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-121011?style=for-the-badge&logo=linux&logoColor=white"/>
+</p>
 
 ---
 
-## 🔥 Streak Stats  
-![GitHub Streak](https://streak-stats.demolab.com?user=Abhishek-kumar-vidyarthi&theme=dark)
+# 🚀 **LeetCode Stats**
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/Abhishek_vidyarthi231?theme=dark&ext=heatmap&border=2&radius=10&font=Roboto" width="90%"/>
+</p>
 
 ---
 
-## 🏆 GitHub Trophies  
-![Trophies](https://github-profile-trophy.vercel.app/?username=Abhishek-kumar-vidyarthi&theme=matrix&margin-w=10)
+# 📊 **GitHub Stats (Full Width & Stylish)**
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Abhishek-kumar-vidyarthi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" width="90%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhishek-kumar-vidyarthi&theme=tokyonight&hide_border=false" width="90%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhishek-kumar-vidyarthi&layout=compact&theme=tokyonight" width="60%"/>
+
+</div>
 
 ---
 
-## 🌍 Connect With Me  
-📫 **Email:** abhishekv.contact@gmail.com  
-💼 **LinkedIn:** [Abhishek Kumar Vidyarthi](https://www.linkedin.com/in/abhishek-kumar-vidyarthi/)  
-💻 **LeetCode:** [Abhishek_vidyarthi231](https://leetcode.com/Abhishek_vidyarthi231/)  
+# 🏆 **GitHub Achievements**
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Abhishek-kumar-vidyarthi&theme=juicyfresh&no-bg=true&margin-w=10&row=1" width="90%"/>
+</p>
 
 ---
 
-⭐ *“Code. Learn. Build. Repeat.”*  
+# 🌍 **Connect With Me**
+
+<p align="center">
+  <a href="mailto:abhishekv.contact@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-orange?style=for-the-badge"/></a>
+  <a href="https://www.linkedin.com/in/abhishek-kumar-vidyarthi/"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge"/></a>
+  <a href="https://leetcode.com/Abhishek_vidyarthi231/"><img src="https://img.shields.io/badge/LeetCode-Profile-yellow?style=for-the-badge"/></a>
+</p>
+
+---
+
+<p align="center">
+⭐ <i>"Code. Learn. Build. Repeat."</i> ⭐
+</p>
