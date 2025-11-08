@@ -1,12 +1,11 @@
 <!-- HEADER -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=1000&color=00E7FF&center=true&vCenter=true&width=500&lines=👋+Hi%2C+I'm+Abhishek+Kumar!;💻+Full+Stack+Developer+%7C+Java+%7C+Django+%7C+React;🚀+Always+Learning+%26+Building+Cool+Things!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=27&duration=2700&pause=1000&color=00E7FF&center=true&vCenter=true&multiline=true&width=900&lines=👋+Hi%2C+I'm+Abhishek+Kumar!;💻+Full+Stack+Developer+%7C+Java+%7C+Spring+Boot+%7C+Django+%7C+React;🚀+Building+Scalable+and+Smart+Applications!" alt="Typing SVG" />
 </h1>
-
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 </p>
@@ -15,13 +14,13 @@
 
 ## 🧠 About Me  
 
-I’m a **B.Tech student** and a passionate **Full-Stack Developer** specializing in **Java**, **Spring Boot**, **Django**, and **React**.  
-I enjoy solving real-world problems through **clean architecture** and **efficient APIs**, while continuously improving in **DSA** and **System Design**.
+I’m a **B.Tech student** and passionate **Full-Stack Developer** focused on **Java**, **Spring Boot**, **Django**, and **React**.  
+I love turning ideas into scalable web applications and solving challenging problems in **Data Structures and Algorithms**.  
 
-- 🌱 Currently exploring **Microservices**, **Cloud Deployment**, and **Scalable Backend Systems**.  
-- 🧩 Love solving coding challenges on **LeetCode**.  
-- 💬 Ask me about **Java, Spring Boot, Django, REST APIs, and DSA**.  
-- ⚡ Fun fact: I believe **"Consistency beats talent — every single time."**
+- 🌱 Exploring **Microservices**, **Cloud Deployment**, and **System Design**  
+- 🧩 Active on **LeetCode** with daily coding practice  
+- 💬 Ask me about **Backend Development**, **REST APIs**, and **Performance Optimization**  
+- ⚡ Fun fact: *“Consistency beats talent — every single time.”*  
 
 ---
 
@@ -39,14 +38,22 @@ I enjoy solving real-world problems through **clean architecture** and **efficie
 
 ### 🗄️ Databases & Tools  
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,git,github,postman,vscode" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,git,github,postman,vscode,linux" />
 </p>
 
 ---
 
-## 🚀 LeetCode Stats (Auto-updating)
+## 🚀 LeetCode Profile
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/Abhishek_vidyarthi231?theme=dark&ext=heatmap&radius=10&border=2&font=Roboto" width="90%" alt="LeetCode Stats"/>
+  <a href="https://leetcode.com/Abhishek_vidyarthi231/">
+    <img src="https://leetcard.jacoblin.cool/Abhishek_vidyarthi231?theme=dark&font=Karma&ext=heatmap&radius=10&border=2&border_color=00E7FF" width="90%" alt="LeetCode Stats"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Ranking-Top%2010%25-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white&color=00E7FF"/>
+  <img src="https://img.shields.io/badge/Problems%20Solved-800%2B-orange?style=for-the-badge&logo=leetcode&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Contest%20Rating-1700%2B-blue?style=for-the-badge&logo=leetcode&logoColor=white"/>
 </p>
 
 ---
@@ -64,9 +71,16 @@ I enjoy solving real-world problems through **clean architecture** and **efficie
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Achievements
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Abhishek-kumar-vidyarthi&theme=tokyonight&no-frame=true&margin-w=15&column=6" width="100%"/>
+</p>
+
+---
+
+## 🐍 Contribution Graph
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Abhishek-kumar-vidyarthi/Abhishek-kumar-vidyarthi/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%"/>
 </p>
 
 ---
