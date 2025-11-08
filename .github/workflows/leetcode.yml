@@ -1,0 +1,19 @@
+name: Update LeetCode Stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # Runs every day at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  update-leetcode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update LeetCode Profile Card
+        uses: JacobLinCool/LeetCode-Stats-Card@master
+        with:
+          username: Abhishek_vidyarthi231
+          theme: dark
+          border: true
+          radius: 10
+          extension: heatmap
