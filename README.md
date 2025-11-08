@@ -1,6 +1,6 @@
 <!-- HEADER -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=27&duration=2700&pause=1000&color=00E7FF&center=true&vCenter=true&multiline=true&width=900&lines=👋+Hi%2C+I'm+Abhishek+Kumar!;💻+Full+Stack+Developer+%7C+Java+%7C+Spring+Boot+%7C+Django+%7C+React;🚀+Building+Scalable+and+Smart+Applications!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=27&duration=2700&pause=1000&color=00E7FF&center=true&vCenter=true&multiline=true&width=1200&lines=👋+Hi%2C+I'm+Abhishek+Kumar!;💻+Full+Stack+Developer+%7C+Java+%7C+Spring+Boot+%7C+Django+%7C+React;🚀+Building+Scalable+and+Smart+Applications!" />
 </h1>
 
 <p align="center">
@@ -80,8 +80,9 @@ I love turning ideas into scalable web applications and solving challenging prob
 
 ## 🐍 Contribution Graph
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhishek-kumar-vidyarthi/Abhishek-kumar-vidyarthi/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Abhishek-kumar-vidyarthi/Abhishek-kumar-vidyarthi/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation"/>
 </p>
+
 
 ---
 
