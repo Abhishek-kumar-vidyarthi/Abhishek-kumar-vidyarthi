@@ -1,0 +1,68 @@
+name: Auto Update Profile (Professional)
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # Runs daily at 5 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      # ----------------------------------------------------------
+      #     1) Generate GitHub Summary Cards
+      # ----------------------------------------------------------
+      - name: Generate GitHub Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: "Abhishek-kumar-vidyarthi"
+
+      # ----------------------------------------------------------
+      #     2) Generate GitHub Activity Graph
+      # ----------------------------------------------------------
+      - name: Generate Activity Graph
+        uses: Ashutosh00710/github-readme-activity-graph@master
+        with:
+          username: "Abhishek-kumar-vidyarthi"
+          theme: "react-dark"
+          hide_border: "true"
+
+      # ----------------------------------------------------------
+      #     3) Update LeetCode Card (only regenerates if changed)
+      # ----------------------------------------------------------
+      - name: Update LeetCode Card
+        run: |
+          curl -o leetcard.svg "https://leetcard.jacoblin.cool/Abhishek_vidyarthi231?theme=dark&font=Fira+Code&border=1&radius=10&ext=plain"
+
+      # ----------------------------------------------------------
+      #     4) Update README "Last Updated" (safe)
+      # ----------------------------------------------------------
+      - name: Update Last Updated in README
+        run: |
+          ts=$(date -u +"%Y-%m-%d %H:%M UTC")
+          sed -i "s|Last Updated:.*|Last Updated: $ts|" README.md || true
+
+      # ----------------------------------------------------------
+      #     5) Commit only if something changed
+      # ----------------------------------------------------------
+      - name: Commit Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes — no commit"
+          else
+            git commit -m "Auto Update Profile (Summary Cards, Activity Graph, LeetCode)"
+            git push
+          fi
