@@ -1,0 +1,119 @@
+name: Profile Automation — Stats, Snake, Format, Security
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  security-events: write
+  actions: read
+
+jobs:
+  prepare:
+    name: Checkout + Generate + Format + Commit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      # -----------------------
+      # 1) Generate Contribution Snake
+      # -----------------------
+      - name: Generate contribution snake SVG
+        uses: Platane/snk@v3
+        with:
+          width: 800
+          output: "assets/github-contrib-snake.svg"
+
+      # -----------------------
+      # 2) Update README
+      # -----------------------
+      - name: Update README — Last Updated & snake link
+        run: |
+          README=README.md
+          DATE="$(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          if grep -q "^Last Updated:" "$README"; then
+            sed -i "s/^Last Updated:.*/Last Updated: $DATE/" "$README"
+          else
+            awk -v d="$DATE" 'NR==1 {print; if ($0 ~ /^#/) print ""; print "Last Updated: " d; next} {print}' "$README" > /tmp/README.tmp && mv /tmp/README.tmp "$README"
+          fi
+
+          if grep -q "github-contrib-snake.svg" "$README"; then
+            sed -i "s#.*github-contrib-snake.svg.*#![contrib snake](assets/github-contrib-snake.svg)#" "$README"
+          else
+            echo "" >> "$README"
+            echo "![contrib snake](assets/github-contrib-snake.svg)" >> "$README"
+          fi
+
+      # -----------------------
+      # 3) Inject GitHub stats cards (dynamic)
+      # -----------------------
+      - name: Ensure GitHub stats cards exist
+        run: |
+          README=README.md
+          if ! grep -q "github-readme-stats" "$README"; then
+            cat >> "$README" <<'EOT'
+
+<!-- GitHub Stats & Top Languages -->
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=Abhishek-kumar-vidyarthi&show_icons=true&theme=dark)](https://github.com/Abhishek-kumar-vidyarthi)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Abhishek-kumar-vidyarthi&layout=compact&theme=dark)](https://github.com/Abhishek-kumar-vidyarthi)
+EOT
+          fi
+
+      # -----------------------
+      # 4) Format README with Prettier
+      # -----------------------
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Prettier
+        run: npm install --no-save prettier
+
+      - name: Run Prettier on README
+        run: npx prettier --write README.md
+
+      # -----------------------
+      # 5) Commit & push if changes found
+      # -----------------------
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore(profile): auto-update (snake, stats, last-updated)"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
+  codeql:
+    name: CodeQL Security Scan
+    runs-on: ubuntu-latest
+    needs: prepare
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Init CodeQL
+        uses: github/codeql-action/init@v2
+        with:
+          languages: javascript,python
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v2
+
+      - name: Run CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
