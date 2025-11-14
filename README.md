@@ -1,92 +1,150 @@
-<!-- HEADER -->
+<!-- ========================================================= -->
+<!--                     PREMIUM PORTFOLIO HEADER              -->
+<!-- ========================================================= -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=27&duration=2700&pause=1000&color=00E7FF&center=true&vCenter=true&multiline=true&width=1200&lines=👋+Hi%2C+I'm+Abhishek+Kumar!;💻+Full+Stack+Developer+%7C+Java+%7C+Spring+Boot+%7C+Django+%7C+React;🚀+Building+Scalable+and+Smart+Applications!" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&weight=900&duration=2500&pause=900&color=00E7FF&center=true&vCenter=true&width=1100&lines=👋+Hey%2C+I'm+Abhishek+Kumar!;💻+Full+Stack+Developer+%7C+Backend+Engineer;🚀+Java+%7C+Spring+Boot+%7C+Django+%7C+React;🔥+Building+Scalable+Backend+Systems" />
 </h1>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Abhishek-kumar-vidyarthi&style=flat-square&color=00e7ff" />
+</p>
+
+<!-- ========================================================= -->
+<!--                        BADGE STACK                         -->
+<!-- ========================================================= -->
+<p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Backend%20Developer-%2300E7FF?style=for-the-badge" />
 </p>
 
 ---
 
-## 🧠 About Me  
+<!-- ========================================================= -->
+<!--                     GLASSMORPHISM ABOUT                   -->
+<!-- ========================================================= -->
+<h2 align="center">🧑‍💻 <strong>About Me</strong></h2>
 
-I’m a **B.Tech student** and passionate **Full-Stack Developer** focused on **Java**, **Spring Boot**, **Django**, and **React**.  
-I love turning ideas into scalable web applications and solving challenging problems in **Data Structures and Algorithms**.  
+<div style="
+  padding: 25px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  width: 95%;
+  margin: auto;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  text-align: left;
+">
 
-- 🌱 Exploring **Microservices**, **Cloud Deployment**, and **System Design**  
-- 🧩 Active on **LeetCode** with daily coding practice  
-- 💬 Ask me about **Backend Development**, **REST APIs**, and **Performance Optimization**  
-- ⚡ Fun fact: *“Consistency beats talent — every single time.”*  
+Hello! I'm <strong>Abhishek Kumar</strong>, a passionate <strong>Full Stack Developer</strong>  
+with a strong focus on <strong>Backend Engineering and REST API development</strong>.  
+I enjoy building scalable backends using <strong>Java Spring Boot</strong> and <strong>Django</strong>,  
+and integrating them with modern interfaces built using <strong>React</strong>.
+
+<br/>
+
+🎓 Pursuing <strong>B.Tech in Data Science</strong>  
+💡 Strong in <strong>Java · Spring Boot · Django · React · SQL</strong>  
+⚙️ Experience with <strong>REST APIs · Database Design · Authentication (JWT)</strong>  
+🚀 Currently learning <strong>System Design · Low-Level Design · Scalable Backend Patterns</strong>
+
+<br/>
+
+I love writing clean, maintainable code and building real-world applications that solve practical problems.
+</div>
+
+
+
 
 ---
 
-## ⚙️ Tech Stack  
+<!-- ========================================================= -->
+<!--                          TECH STACK                       -->
+<!-- ========================================================= -->
+<h2 align="center">⚙️ <strong>Tech Stack</strong></h2>
 
-### 💻 Languages  
+### 🖥️ **Languages**
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css,sql" />
 </p>
 
-### 🧩 Frameworks & Libraries  
+### 🧰 **Frameworks**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=spring,react,django,bootstrap,nodejs,express" />
+  <img src="https://skillicons.dev/icons?i=spring,django,react,bootstrap" />
 </p>
 
-### 🗄️ Databases & Tools  
+### 🗄️ **Databases & Tools**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,git,github,postman,vscode,linux" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,git,github,postman,vscode" />
 </p>
 
 ---
 
-## 🚀 LeetCode Profile
+<!-- ========================================================= -->
+<!--                     ADVANCED GITHUB STATS                 -->
+<!-- ========================================================= -->
+<h2 align="center">📊 <strong>GitHub Analytics</strong></h2>
+
 <p align="center">
-  <a href="https://leetcode.com/Abhishek_vidyarthi231/">
-    <img src="https://leetcard.jacoblin.cool/Abhishek_vidyarthi231?theme=dark&font=Karma&ext=heatmap&radius=10&border=2&border_color=00E7FF" width="90%" alt="LeetCode Stats"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Abhishek-kumar-vidyarthi&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Abhishek-kumar-vidyarthi&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Abhishek-kumar-vidyarthi&theme=onestar&no-frame=true&margin-w=10" />
+</p>
+
+---
+
+<!-- ========================================================= -->
+<!--                  3D GITHUB GRAPH (PREMIUM)                -->
+<!-- ========================================================= -->
+<h2 align="center">🧊 <strong>3D GitHub Contribution Graph</strong></h2>
+
+<p align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhishek-kumar-vidyarthi&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-kumar-vidyarthi&theme=react-dark&hide_border=true" />
+</p>
+
+---
+
+<!-- ========================================================= -->
+<!--                        LEETCODE SECTION                    -->
+<!-- ========================================================= -->
+<h2 align="center">🧩 <strong>LeetCode Performance</strong></h2>
+
+<div style="width: 100%; display: flex; justify-content: center;">
+  <a href="https://leetcode.com/Abhishek_vidyarthi231/" style="width: 100%;">
+    <img
+      src="https://leetcard.jacoblin.cool/Abhishek_vidyarthi231?theme=dark&font=Fira+Code&border=1&radius=10&ext=heatmap"
+      alt="LeetCode Stats"
+      style="
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+      "
+    />
   </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Ranking-Top%2010%25-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white&color=00E7FF"/>
-  <img src="https://img.shields.io/badge/Problems%20Solved-800%2B-orange?style=for-the-badge&logo=leetcode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Contest%20Rating-1700%2B-blue?style=for-the-badge&logo=leetcode&logoColor=white"/>
-</p>
-
----
-
-## 📊 GitHub Stats
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=Abhishek-kumar-vidyarthi&show_icons=true&theme=tokyonight&count_private=true&hide_border=false&border_radius=15" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhishek-kumar-vidyarthi&theme=tokyonight&hide_border=false&border_radius=15" width="48%"/>
-
-  <br/><br/>
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhishek-kumar-vidyarthi&layout=compact&theme=tokyonight&hide_border=false&border_radius=15" width="60%"/>
 </div>
 
----
 
-## 🏆 GitHub Achievements
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Abhishek-kumar-vidyarthi&theme=tokyonight&no-frame=true&margin-w=15&column=6" width="100%"/>
-</p>
-
----
-
-## 🐍 Contribution Graph
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Abhishek-kumar-vidyarthi/Abhishek-kumar-vidyarthi/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation"/>
-</p>
 
 
 ---
 
-## 🌍 Connect With Me
+<!-- ========================================================= -->
+<!--                     CONTACT & SOCIAL LINKS                -->
+<!-- ========================================================= -->
+<h2 align="center">🌍 <strong>Connect With Me</strong></h2>
+
 <p align="center">
   <a href="mailto:abhishekv.contact@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/abhishek-kumar-vidyarthi/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -95,10 +153,12 @@ I love turning ideas into scalable web applications and solving challenging prob
 
 ---
 
-<h3 align="center">
-✨ <i>"Code. Learn. Build. Repeat."</i> ✨  
-</h3>
+<!-- ========================================================= -->
+<!--                         WAVE FOOTER                       -->
+<!-- ========================================================= -->
+<p align="center"><strong>Last Updated:</strong> </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:00E7FF,100:0011FF&section=footer" width="100%"/>
+
+
+<h3 align="center">✨ <i>“Code. Learn. Build. Repeat.”</i> ✨</h3>
