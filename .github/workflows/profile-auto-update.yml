@@ -18,7 +18,7 @@ jobs:
         with:
           persist-credentials: true
 
-      # 1) Generate GitHub Summary Cards (repo: vn7n24fzkq/github-profile-summary-cards)
+      # GitHub Summary Cards
       - name: Generate GitHub Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
@@ -26,50 +26,37 @@ jobs:
         with:
           USERNAME: "Abhishek-kumar-vidyarthi"
 
-      # 2) Generate activity graph
-      # NOTE: changed ref from @master to @main (or @v1) to avoid "unable to find version" errors
-      - name: Generate Activity Graph
-        uses: Ashutosh00710/github-readme-activity-graph@main
-        with:
-          username: "Abhishek-kumar-vidyarthi"
-          theme: "react-dark"
-          hide_border: "true"
-
-      # 3) Update LeetCode Card (download a fresh generated svg)
+      # Update LeetCode Card
       - name: Update LeetCode Card
         run: |
-          mkdir -p .github/generated
-          curl -s -o .github/generated/leetcard.svg "https://leetcard.jacoblin.cool/Abhishek_vidyarthi231?theme=dark&font=Fira+Code&border=1&radius=10&ext=plain"
+          mkdir -p dist
+          curl -s -o dist/leetcard.svg "https://leetcard.jacoblin.cool/Abhishek_vidyarthi231?theme=dark&font=Fira+Code&border=1&radius=10&ext=heatmap"
 
-      # 4) Update README "Last Updated" placeholder (safe)
+      # Update Activity Graph via public API / image service
+      - name: Update Activity Graph Image
+        run: |
+          curl -s -o dist/activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=Abhishek-kumar-vidyarthi&theme=react-dark&hide_border=true"
+
+      # Update Last Updated in README
       - name: Update Last Updated in README
         run: |
           ts=$(date -u +"%Y-%m-%d %H:%M UTC")
-          # insert or replace "Last Updated:" line
           if grep -q "^Last Updated:" README.md; then
             sed -i "s|^Last Updated:.*|Last Updated: $ts|" README.md
           else
             echo -e "\nLast Updated: $ts" >> README.md
           fi
 
-      # 5) Replace README leetcard reference with the new generated file (optional)
-      - name: Ensure generated assets referenced
-        run: |
-          # move generated leetcard to dist/ so it can be committed if changed
-          mkdir -p dist
-          mv .github/generated/leetcard.svg dist/leetcard.svg || true
-          # (You can update README linking to dist/leetcard.svg if you want static commit)
-
-      # 6) Commit only if files changed
+      # Commit if changed
       - name: Commit Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add -A
+          git add dist README.md
           if git diff --staged --quiet; then
             echo "No changes — no commit"
           else
-            git commit -m "Auto Update Profile (Summary Cards, Activity Graph, LeetCode)"
+            git commit -m "Auto Update Profile (Cards, Graph, LeetCode)"
             git push
           fi
